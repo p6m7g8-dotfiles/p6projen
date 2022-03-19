@@ -15,7 +15,7 @@
 p6_projen_awesome_collect() {
 
     local projects
-    projects=$(p6_file_display "$P6_DFZ_SRC_P6M7G8_DIR/p6projen/conf/projects" | sort -r)
+    projects=$(p6_file_display "$P6_DFZ_SRC_P6M7G8_DOTFILES_DIR/p6projen/conf/projects" | sort -r)
 
     p6_return_words "$projects"
 }
