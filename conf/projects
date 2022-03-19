@@ -145,12 +145,6 @@ nikovirtala/cdk-eks-experiment
 nikovirtala/cdk-fargate-apigateway-http-api
 nikovirtala/cdk-preview-environments
 nikovirtala/notes-backend
-p6m7g8/awesome-projen
-p6m7g8/p6-account-vending-machine
-p6m7g8/p6-barrier
-p6m7g8/p6-cdklz
-p6m7g8/p6-namer
-p6m7g8/p6-projen-project-awesome-list
 pahud/aws-cdk-eks-sample
 pahud/aws-cdk-fargate-sample
 pahud/aws-cdk-serverless-sample
