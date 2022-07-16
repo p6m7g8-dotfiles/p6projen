@@ -22,6 +22,7 @@ p6df::modules::p6projen::deps() {
 #>
 ######################################################################
 p6df::modules::p6projen::init() {
+  local dir="$1"
 
-  p6_bootstrap "$__p6_dir"
+  p6_bootstrap "$dir"
 }
