@@ -8,8 +8,7 @@
 #  Returns:
 #	words - projects
 #
-#  Depends:	 p6_dir
-#  Environment:	 P6_DFZ_SRC_P6M7G8_DIR
+#  Environment:	 P6_DFZ_SRC_P6M7G8_DOTFILES_DIR
 #>
 ######################################################################
 p6_projen_awesome_collect() {
@@ -28,7 +27,6 @@ p6_projen_awesome_collect() {
 #  Args:
 #	OPTIONAL parallel - [8]
 #
-#  Depends:	 p6_dir p6_echo p6_run
 #  Environment:	 P6_DFZ_DATA_DIR
 #>
 ######################################################################
@@ -46,12 +44,14 @@ p6_projen_awesome_clones() {
 ######################################################################
 #<
 #
-# Function: p6_projen_awesome_foreach(code)
+# Function: p6_projen_awesome_foreach(code, dir, code, project)
 #
 #  Args:
 #	code -
+#	dir -
+#	code -
+#	project -
 #
-#  Depends:	 p6_echo p6_run
 #  Environment:	 P6_DFZ_DATA_DIR
 #>
 ######################################################################
@@ -80,7 +80,6 @@ do_it() {
 #
 # Function: p6_projen_awesome_version()
 #
-#  Depends:	 p6_echo p6_node
 #>
 ######################################################################
 p6_projen_awesome_version() {
@@ -99,7 +98,6 @@ p6_projen_awesome_version() {
 #
 # Function: p6_projen_awesome_cdk_version()
 #
-#  Depends:	 p6_echo
 #>
 ######################################################################
 p6_projen_awesome_cdk_version() {
@@ -112,7 +110,6 @@ p6_projen_awesome_cdk_version() {
 #
 # Function: p6_projen_awesome_pkg()
 #
-#  Depends:	 p6_echo p6_node
 #>
 ######################################################################
 p6_projen_awesome_pkg() {
@@ -131,7 +128,6 @@ p6_projen_awesome_pkg() {
 #
 # Function: p6_projen_awesome_type()
 #
-#  Depends:	 p6_git
 #>
 ######################################################################
 p6_projen_awesome_type() {
@@ -168,7 +164,6 @@ p6_projen_awesome_module() {
 #
 # Function: p6_projen_awesome_update()
 #
-#  Depends:	 p6_h1
 #>
 ######################################################################
 p6_projen_awesome_update() {
@@ -209,7 +204,6 @@ p6_projen_awesome_pr() {
 #  Args:
 #	project -
 #
-#  Depends:	 p6_git
 #>
 ######################################################################
 p6_projen_awesome_description() {
@@ -229,7 +223,6 @@ p6_projen_awesome_description() {
 #
 # Function: p6_projen_awesome_diff()
 #
-#  Depends:	 p6_git
 #>
 ######################################################################
 p6_projen_awesome_diff() {
@@ -242,7 +235,6 @@ p6_projen_awesome_diff() {
 #
 # Function: p6_projen_awesome_synthesize()
 #
-#  Depends:	 p6_git
 #>
 ######################################################################
 p6_projen_awesome_synthesize() {
@@ -255,7 +247,6 @@ p6_projen_awesome_synthesize() {
 #
 # Function: p6_projen_awesome_build()
 #
-#  Depends:	 p6_git
 #>
 ######################################################################
 p6_projen_awesome_build() {
@@ -268,7 +259,6 @@ p6_projen_awesome_build() {
 #
 # Function: p6_projen_awesome_upgrade()
 #
-#  Depends:	 p6_git
 #>
 ######################################################################
 p6_projen_awesome_upgrade() {
@@ -281,7 +271,6 @@ p6_projen_awesome_upgrade() {
 #
 # Function: p6_projen_awesome_submit()
 #
-#  Depends:	 p6_git p6_github
 #>
 ######################################################################
 p6_projen_awesome_submit() {

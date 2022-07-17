@@ -45,12 +45,12 @@
 #### p6projen/init.zsh:
 
 - p6df::modules::p6projen::deps()
-- p6df::modules::p6projen::init()
+- p6df::modules::p6projen::init(module, dir)
 
 
-### ../p6projen/lib:
+### p6projen/lib:
 
-#### ../p6projen/lib/awesome.sh:
+#### p6projen/lib/awesome.sh:
 
 - p6_projen_awesome_branch()
 - p6_projen_awesome_build()
@@ -58,7 +58,7 @@
 - p6_projen_awesome_clones([parallel=8])
 - p6_projen_awesome_description(project)
 - p6_projen_awesome_diff()
-- p6_projen_awesome_foreach(code)
+- p6_projen_awesome_foreach(code, dir, code, project)
 - p6_projen_awesome_module()
 - p6_projen_awesome_pkg()
 - p6_projen_awesome_pr()
