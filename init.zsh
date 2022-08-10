@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 ######################################################################
 #<
 #
@@ -27,4 +28,6 @@ p6df::modules::p6projen::init() {
   local dir="$2"
 
   p6_bootstrap "$dir"
+
+  p6_return_void
 }
