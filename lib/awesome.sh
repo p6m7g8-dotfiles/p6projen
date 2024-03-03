@@ -33,12 +33,12 @@ p6_projen_awesome_collect() {
 p6_projen_awesome_clones() {
     local parallel="${1:-8}"
 
-    local dir="$P6_DFZ_DATA_DIR/src/github.com/projens"
+    local dir="$P6_DFZ_SRC_FOCUSED_DIR/projens"
     p6_dir_mk "$dir"
 
     local projects=$(p6_projen_awesome_collect)
 
-    p6_run_parallel "0" "$parallel" "$projects" "p6_github_util_repo_clone_or_pull" "" "$dir"
+    p6_run_parallel "0" "$parallel" "$projects" "p6_github_gh_clone" "" "$dir"
 }
 
 ######################################################################
