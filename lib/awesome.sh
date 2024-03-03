@@ -27,7 +27,7 @@ p6_projen_awesome_collect() {
 #  Args:
 #	OPTIONAL parallel - [8]
 #
-#  Environment:	 P6_DFZ_DATA_DIR
+#  Environment:	 P6_DFZ_SRC_FOCUSED_DIR
 #>
 ######################################################################
 p6_projen_awesome_clones() {
