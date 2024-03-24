@@ -38,7 +38,7 @@ p6_projen_awesome_clones() {
 
     local projects=$(p6_projen_awesome_collect)
 
-    p6_run_parallel "0" "$parallel" "$projects" "p6_github_util_clone" "" "$dir"
+    p6_run_parallel "0" "$parallel" "$projects" "p6_github_cli_clone" "" "$dir"
 }
 
 ######################################################################
