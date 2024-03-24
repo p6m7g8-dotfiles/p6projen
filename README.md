@@ -10,8 +10,7 @@
   - [Summary](#summary)
   - [Contributing](#contributing)
   - [Code of Conduct](#code-of-conduct)
-  - [Changes](#changes)
-    - [Usage](#usage)
+  - [Usage](#usage)
   - [Author](#author)
 
 ### Badges
@@ -34,18 +33,20 @@
 
 - [Code of Conduct](https://github.com/p6m7g8/.github/blob/master/CODE_OF_CONDUCT.md)
 
-## Changes
-
-- [Change Log](CHANGELOG.md)
-
 ## Usage
+
+
+### Aliases
+
+
+### Functions
 
 ### p6projen:
 
 #### p6projen/init.zsh:
 
 - p6df::modules::p6projen::deps()
-- p6df::modules::p6projen::init(module, dir)
+- p6df::modules::p6projen::init(_module, dir)
 
 
 ### p6projen/lib:
